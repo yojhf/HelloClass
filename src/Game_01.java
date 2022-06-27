@@ -1,3 +1,4 @@
+// if문 사용
 import java.util.Scanner;
 
 public class Game_01
@@ -9,7 +10,7 @@ public class Game_01
 
         // 캐릭터 이름 설정
         Scanner sc = new Scanner(System.in);
-        System.out.printf("주인공의 이름은 : ");
+        System.out.print("주인공의 이름은 : ");
         String Mname = sc.next();
 
         // 도라에몽이 캐릭터가 여행을 떠난다.
